@@ -11,5 +11,6 @@ readTumorRegionMRImgFile4NII.m: this is an example copy of code to extract patch
 
 resize.m: resize image function which supports 2d and 3d. (just like imreize in matlab, but imresize only support 2d)
 
+readTumorRegionT1Img4NIIbyMultiHdf5.m: extract patches around tumor region, and we store more than 1 subjects in one hdf5 with random indexing. Also, we use original image instead of resizing ones in this program to avoid losing information. 
 
 tumorLocation4T1.txt: tumor location information for the 68 subjects and it is based on T1 MRI. In the code, I have converted them into other imaging space (for example, DTI, freq-fMRI).
