@@ -17,6 +17,12 @@ readTumorRegionT1Img4NIIbyMultiHdf5.m: extract patches around tumor region, and 
 tumorLocation4T1.txt: tumor location information for the 68 subjects and it is based on T1 MRI. In the code, I have converted them into other imaging space (for example, DTI, freq-fMRI).
 
 ## for Testing
+
+# python version
+please use the following matlab files to do the tesing (caffe python API): evaluateTumorOS.py
+
+
+# matlab version
 please use the following matlab files to do the tesing. Note, you have to setup the data and trained models in evaluateTumorRegionT1ImgFile4NII.m and test_3dBrainCNN.m.
 
 evaluateTumorRegionT1ImgFile4NII.m: the main entrance for testing the tumor OS prediction.
